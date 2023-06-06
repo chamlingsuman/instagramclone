@@ -1,0 +1,136 @@
+/*body{
+    background-color: lightgrey;
+}*/
+
+#main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.form{
+    height: 46vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    border: 1px solid rgb(170, 169, 169);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.instagram-logo{
+    position: relative;
+    display: inline-block;
+    width: 10em;
+    height: 7em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.username{
+    font-family: sans-serif,arial;
+    font-size: 12px;
+    border-radius: 4px;
+   padding: 9px 8px 9px 8px;
+    width: 260px;
+    height: 1.5em;
+    border: 1px solid rgb(170, 169, 169);
+    margin-bottom: 0;
+}
+
+.password{
+    font-family: sans-serif,arial;
+    font-size: 12px;
+    border-radius: 4px;
+   padding: 9px 8px 9px 8px;
+    width: 260px;
+    border: 1px solid rgb(170, 169, 169);
+    height: 1.5em;
+    margin-bottom: 0;
+}
+
+.button{
+    margin-top: 0;
+    margin-bottom: 2em;
+    width: 270px;
+    height: 2.1em;
+    font-size: 100%;
+    color: white;
+    text-decoration: bold;
+    padding: 9px 0 7px 8px;
+    border-radius: 0.6em;
+    background-color: rgb(11, 175, 230);
+    border: 1px solid rgb(170, 169, 169);
+
+}
+
+.Seletion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OR-class{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 0.6em;
+    color: rgb(102, 99, 99);
+}
+
+.connect{
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: rgb(7, 12, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: 0;
+    cursor: pointer;
+}
+
+.facebook-icon{
+    width: 18px;
+    margin-right: 0.5em;
+}
+
+.forgot-password{
+    font-family: sans-serif, arial;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+input:focus-visible{
+    border-radius: 0px;
+    outline-color: rgb(182, 182, 182);
+}
+
+h2 { 
+    width:100%; 
+    text-align:center; 
+    border-bottom: 1px solid rgb(182, 182, 182);
+    line-height:0.1em; 
+    margin:10px 0 20px;
+    font-size: 13px;
+    color:rgb(182, 182, 182); 
+ } 
+h2 span { background:#fff; 
+    padding:0 10px; }
